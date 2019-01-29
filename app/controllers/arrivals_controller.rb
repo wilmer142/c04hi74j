@@ -1,5 +1,5 @@
 class ArrivalsController < ApplicationController
   def index
-    arrivals = Arrival.all
+    @arrivals = Arrival.all
   end
 end
